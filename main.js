@@ -40,7 +40,7 @@ const premios = [
     'Intentalo de nuevo'];
 
 
-const colors = ['#7e41ff', '#ffca26', '#5101ff']
+const colors = [ '#ffffff','#084965', '#095579']
 
 const posX = radio + 50
 const posY = radio + 50
@@ -67,8 +67,8 @@ function dibujarRuleta() {
         ctx.rotate(inicioAngulo + anguloSector / 2);
         ctx.textAlign = 'right';
         if (i % 3 == 0) {
-            ctx.fillStyle = '#FFFFFF';
-            ctx.font = 'normal 16px Arial';
+            ctx.fillStyle = '#000000';
+            ctx.font = 'bold 16px Arial';
         } else {
             ctx.fillStyle = '#FFFFFF';
             ctx.font = 'normal 16px Arial';
