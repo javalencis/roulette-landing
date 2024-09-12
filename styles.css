@@ -4,7 +4,7 @@ body{
     align-items: center;
     position: relative;
     background-image: url('./assets/bgdesktop.webp');
-    font-family: "Roboto", sans-serif;
+    font-family: "Lexend", sans-serif;
 }
 .container{
     width: 300px;
@@ -54,6 +54,7 @@ body{
     gap: 10px;
     max-width: max-content;
     font-size: 20px;
+    border-radius: 6px;
 
 }
 .container button{
@@ -64,7 +65,8 @@ body{
     cursor: pointer;
     font-weight: 700;
     font-size: 18px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Lexend", sans-serif;
+    border-radius: 6px;
 }
 
 
