@@ -1,0 +1,127 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url('./assets/bgdesktop.webp');
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    width: 300px;
+
+}
+
+.container--start{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container--start .start-title{
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+}
+.container--end{
+    display: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+}
+.container--end h3{
+    font-size: 24px;
+
+}
+.end-msn{
+    font-size: 20px;
+
+}
+.end-cupon{
+    margin: 0;
+    font-weight: 700;
+}
+.pCheck{
+    display: none;
+}
+.content-cupon{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px 16px;
+    margin: 20px auto;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: max-content;
+    font-size: 20px;
+
+}
+.container button{
+    border: none;
+    background-color: #FFFFFF;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+@media (max-width:900px) {
+    canvas{
+        width: 70%;
+        transform: translateX(-100px);
+
+    }
+    
+
+}
+
+
+@media (max-width:680px) {
+    canvas{
+        width: 110%;
+        transform: translateX(-100px);
+    }
+    .container{
+        position: absolute;
+        background-color: #131e29;
+        padding: 20px 10px;
+
+    }
+    .container--start .start-title{
+        color: #ffffff;
+        text-align: center;
+        
+    }
+    .container--end{
+        color: #ffffff;
+    }
+
+}
+
+
+@media (max-width:520px) {
+    canvas{
+        width: 100%;
+        transform: translateX(0);
+    }
+    body{
+        flex-direction: column;
+    }
+    .container{
+        position: relative;
+        background-color: transparent;
+        padding:0;
+    }
+    .container--start .start-title{
+        color: #ffffff;
+        text-align: center;
+        
+    }
+    .container--end{
+        color: #ffffff;
+    }
+   
+}
